@@ -1,0 +1,141 @@
+.b{
+   background-image: url("background.jpeg");
+   background-size: 100%;
+
+   background-position-y:-106px; /* image set to position*/
+}
+
+.i{  /*TESLA  lest icon logo style*/
+    width: 120px; /* size*/
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.x{/* Order list make as Un Order list -1-*/
+    list-style: none;
+    margin-left:322px ; /* .y going to meddle*/
+    margin-top:-21px ; /* .y going to  top meddle*/
+}
+.y{ /* Order list style  */
+    display: inline;
+    font-family: "Gotham"; /*add font*/
+    color: white;/* font color*/
+    margin-left: 28.5px; /*  nav margin each item*/
+    font-size: 14px;
+    font-weight: bold;
+}
+/*Add font with out instoling*/
+@font-face {    
+    src: url("Gotham.woff2");
+    font-family: "Gotham";
+}
+.z{/* 2nd nab bar - this is for possition -2- */
+    list-style: none;
+    margin-left:1036px;
+    margin-top: -34px;
+}
+
+.p{ /* Model Y  */
+    font-family: "Gotham";
+    color: white;
+    font-size: 39px;
+    margin-left: 591px;
+    margin-top: 65px;
+    font-weight: bold;
+}
+
+/* +++++++17.11.2022++++++++++++*/
+
+.a{ /* bottom 1st contaner devition*/
+    width: 811px;
+    height: 127px;
+    margin-left: 286px;
+    margin-top: 280px;
+}
+
+.c{/* bottom contaner 2nd set*/
+    list-style: none;
+    margin-left:-90px;
+}
+.d1{/* bottom1*/
+    font-family: "Gotham";
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+}
+.d2{
+    font-family: "Gotham";
+    color: white;
+    font-size: 12px;
+    margin-top: 8px;
+    margin-left: 5px;
+}
+/*---------done------------------------*/
+.d{ /* Give 3 blocks same line*/
+    display: inline-block;
+    margin-left:90px; /* nav margin each item+ */
+    margin-top: 62px;    /* i addd this*/
+}
+
+.d3{
+    font-size: "Gotham";
+    color: white;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: -1px;
+
+}
+.d4{
+    font-family: "Gotham";
+    color: white;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: -1px;
+}
+/*---------------------------------*/
+/* Order Now class */
+.e{
+    margin-left: 615px;
+    margin-top: -55px;
+}
+/* Order Now button*/
+.btn{
+    width: 207px;
+    height: 43px;
+    background-color: transparent;
+
+    border-color:  white;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    font-family: Gotham;
+    color: white;
+    font-weight: bold;
+}
+/* btn efects*/
+.btn:hover{
+    background-color: white; /* when hover transparent become white*/
+    color: black; /*vfont color when hover*/
+    transition-duration: 0.5s; /* geting bit dely*/
+    cursor: pointer; /* poin curser hand*/
+}
+/* both nav  bar hover efects*/
+.y:hover{
+    background-color: rgb(130,130,130,0.2); /*red, green, blue,alpha*/
+    box-shadow: 0px 0px 0px 10px rgb(130,130,130,0.2);
+    cursor: pointer;
+    transition-duration: 0.5s;
+    border-radius: 1px;
+}
+
+/*--my work--*/
+.w1{
+    margin-left: 1023px;
+    margin-top: -102px;
+    height: 60px;
+    cursor: pointer;
+}
+.x1{
+    margin-left: 95px;
+    margin-top: 55px;
+    cursor: pointer;
+}
